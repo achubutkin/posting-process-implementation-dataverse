@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{3ef51c68-de85-ec11-8d21-00224882488e}" Name="Posting, Order Item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/PostingOrderItem-3EF51C68-DE85-EC11-8D21-00224882488E.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>0</Category>
+  <Mode>1</Mode>
+  <Scope>1</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnUpdateAttributeList>statuscode,statecode,sp_quantity,sp_product,ownerid,sp_order,sp_name</TriggerOnUpdateAttributeList>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>1</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>1</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <CreateStage>40</CreateStage>
+  <UpdateStage>20</UpdateStage>
+  <DeleteStage>20</DeleteStage>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <PrimaryEntity>sp_OrderItem</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Posting, Order Item" />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{80eae6ea-0a87-4829-84f8-0c89404049b6}">
+      <label languagecode="1033" description="The Posted flag is set to Yes. The submitted entry cannot be modified." />
+    </steplabels>
+  </labels>
+</Workflow>

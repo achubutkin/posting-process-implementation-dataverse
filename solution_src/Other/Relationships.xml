@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_sp_order" />
+  <EntityRelationship Name="business_unit_sp_orderitem" />
+  <EntityRelationship Name="lk_sp_order_createdby" />
+  <EntityRelationship Name="lk_sp_order_modifiedby" />
+  <EntityRelationship Name="lk_sp_orderitem_createdby" />
+  <EntityRelationship Name="lk_sp_orderitem_modifiedby" />
+  <EntityRelationship Name="lk_sp_product_createdby" />
+  <EntityRelationship Name="lk_sp_product_modifiedby" />
+  <EntityRelationship Name="lk_sp_warehouse_createdby" />
+  <EntityRelationship Name="lk_sp_warehouse_modifiedby" />
+  <EntityRelationship Name="organization_sp_product" />
+  <EntityRelationship Name="organization_sp_warehouse" />
+  <EntityRelationship Name="owner_sp_order" />
+  <EntityRelationship Name="owner_sp_orderitem" />
+  <EntityRelationship Name="sp_Order_Contact_Contact" />
+  <EntityRelationship Name="sp_Order_sp_Order_sp_OrderItem" />
+  <EntityRelationship Name="sp_Order_Warehouse_sp_Warehouse" />
+  <EntityRelationship Name="sp_OrderItem_Product_sp_Product" />
+  <EntityRelationship Name="team_sp_order" />
+  <EntityRelationship Name="team_sp_orderitem" />
+  <EntityRelationship Name="user_sp_order" />
+  <EntityRelationship Name="user_sp_orderitem" />
+</EntityRelationships>

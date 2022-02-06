@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>sp_InventoryManagement</UniqueName>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="1" schemaName="contact" />
+    <AppModuleComponent type="1" schemaName="sp_order" />
+    <AppModuleComponent type="1" schemaName="sp_orderitem" />
+    <AppModuleComponent type="60" id="{563236b4-d885-ec11-8d21-00224882488e}" />
+    <AppModuleComponent type="1" schemaName="sp_product" />
+    <AppModuleComponent type="1" schemaName="sp_warehouse" />
+    <AppModuleComponent type="62" schemaName="sp_InventoryManagement" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Inventory Management" languagecode="1033" />
+  </LocalizedNames>
+</AppModule>

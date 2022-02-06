@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{af8b15dc-830a-4c24-b552-a4f20d327140}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="sp_name" select="1" icon="1" preview="1">
+        <row name="result" id="sp_orderitemid">
+          <cell name="sp_product" width="125" />
+          <cell name="sp_quantity" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="sp_orderitem">
+          <attribute name="sp_orderitemid" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="sp_product" />
+          <attribute name="sp_quantity" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Order Items" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
